@@ -1,5 +1,5 @@
 import "./globals.css";
-import MainLayout from "@/components/MainLayout";
+import MainLayout from "@/components/layout/MainLayout";
 
 export const metadata = {
   title: "Panel Administrativo",
