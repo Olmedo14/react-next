@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars } from "react-icons/fa6";
+import UserAreaSelectBox from "./UserAreaSelectBox"
 
 const MainHeader = () => {
     return (
@@ -7,6 +8,9 @@ const MainHeader = () => {
             <div>Brand</div>
             <div>
                 <FaBars className='cursor-pointer' />
+            </div>
+            <div>
+                <UserAreaSelectBox />
             </div>
         </div>
     )
