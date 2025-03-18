@@ -20,7 +20,7 @@ const UserAreaSelectBox = () => {
         <div onClick={() => setOpen((prev) => !prev)} className='p-2 cursor-pointer'>
           <span className='border-2 border-blue-600 p-1 rounded-lg'>User Area</span>
         </div>
-        <div className={`flex flex-col bg-sky-100 w-40 my-2 rounded-lg ${open ? "opacity-100 h-auto" : "opacity-0 h-0"} transition-all duration-200 overflow-hidden absolute top-12 right-0`}>
+        <div className={`flex flex-col bg-sky-100 w-35 my-2 rounded-lg ${open ? "opacity-100 h-auto" : "opacity-0 h-0"} transition-all duration-200 overflow-hidden absolute top-12 right-0`}>
           {actions.map(item => {
             return (               //Se agrega el return obligatoriamente para que renderice el div
               <div
